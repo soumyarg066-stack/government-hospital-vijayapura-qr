@@ -1,0 +1,32 @@
+{
+  "name": "government-hospital-vijayapura-qr-navigation",
+  "version": "1.0.0",
+  "description": "Government Hospital Vijayapura – Multilingual QR Code Navigation System (DTSI Project)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/server.test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "hospital",
+    "qr-code",
+    "wayfinding",
+    "navigation",
+    "multilingual",
+    "kannada",
+    "hindi",
+    "vijayapura",
+    "dtsi-project"
+  ],
+  "author": "DTSI Project Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4"
+  }
+}

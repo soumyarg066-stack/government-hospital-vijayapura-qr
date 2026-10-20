@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Government Hospital Vijayapura – Multilingual QR Code Navigation System</title>
+  <meta name="description" content="Government Hospital Vijayapura – Multilingual QR Code Navigation System. Patient wayfinding in English, Kannada (ಕನ್ನಡ), and Hindi (हिंदी).">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Favicon using SVG Data URI -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230284c7%22/><path d=%22M50 20 v60 M20 50 h60%22 stroke=%22white%22 stroke-width=%2214%22 stroke-linecap=%22round%22/></svg>">
+</head>
+<body>
+
+  <!-- ================= TOP EMERGENCY BANNER ================= -->
+  <aside class="emergency-banner" role="alert">
+    <div class="emergency-banner-content">
+      <span class="pulse-indicator" aria-hidden="true"></span>
+      <span id="emergencyAlertText">
+        🚨 EMERGENCY CARE (CASUALTY): Ground Floor, Main Block A — Room 001 (Sample Demo). Open 24/7. Call Ambulance: 108 / 112
+      </span>
+    </div>
+    <button class="btn-emergency-action" id="emergencyBannerBtn">
+      Emergency SOS (24x7)
+    </button>
+  </aside>
+
+  <!-- ================= MAIN HEADER ================= -->
+  <header class="main-header">
+    <div class="header-container">
+      <div class="hospital-branding">
+        <div class="hospital-logo" aria-hidden="true">🏥</div>
+        <div class="hospital-info">
+          <div>
+            <span class="academic-badge" id="academicBadge">DTSI Project Prototype</span>
+          </div>
+          <h1 id="hospitalTitle">Government Hospital Vijayapura</h1>
+          <p id="hospitalTagline">Multilingual QR Code Navigation System | DTSI Project</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- Multilingual Language Selector -->
+        <nav class="lang-switcher" aria-label="Select Language">
+          <button class="lang-btn active" data-lang="en" title="English">English</button>
+          <button class="lang-btn" data-lang="kn" title="ಕನ್ನಡ (Kannada)">ಕನ್ನಡ</button>
+          <button class="lang-btn" data-lang="hi" title="हिंदी (Hindi)">हिंदी</button>
+        </nav>
+
+        <!-- Quick Header Action Buttons -->
+        <button class="btn-header" id="qrStationHeaderBtn" title="Generate QR Code or Mobile Poster">
+          📱 QR Station
+        </button>
+        <button class="btn-header" id="manageDeptsBtn" title="Manage Department JSON Data">
+          ✏️ Manage
+        </button>
+        <button class="btn-emergency-action" id="emergencyHeaderBtn" title="Open Emergency Guidance">
+          🚨 Emergency SOS
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= PROMINENT ACADEMIC & SAMPLE DATA NOTICE ================= -->
+  <div class="academic-notice-banner" id="academicNoticeBanner">
+    ⚠️ <strong>Academic Prototype Notice (DTSI Project):</strong> Department locations, rooms, landmarks, and timings shown are sample demonstration data for Government Hospital Vijayapura and are not officially verified.
+  </div>
+
+  <!-- ================= HERO SEARCH & SYMPTOMS SECTION ================= -->
+  <section class="hero-section">
+    <div class="hero-container">
+      <h2 class="hero-title" id="heroTitle">
+        Where do you need to go? Find your way instantly.
+      </h2>
+      <p class="hero-subtitle" id="heroSubtitle">
+        Select your symptom or search below to get exact room, floor, landmark and walking directions.
+      </p>
+
+      <!-- Search Input Bar -->
+      <div class="search-wrapper">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input 
+          type="search" 
+          id="searchInput" 
+          class="search-input" 
+          placeholder="Search symptom or problem (e.g. skin rash, tooth pain, eye, fever, bone pain)..."
+          autocomplete="off"
+          spellcheck="false"
+        >
+        <button class="clear-search-btn" id="clearSearchBtn" title="Clear Search" aria-label="Clear Search">✕</button>
+        <button class="search-submit-btn" id="searchSubmitBtn">Search</button>
+      </div>
+
+      <!-- Quick Health Problems / Symptoms Chips -->
+      <div class="symptoms-section">
+        <h3 class="symptoms-title" id="symptomsTitle">
+          Common Health Problems & Symptoms (Click to Navigate):
+        </h3>
+        <div class="symptom-chips-container" id="symptomChipsContainer">
+          <!-- Dynamically populated by app.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MAIN CONTENT & DEPARTMENT DIRECTORY ================= -->
+  <main class="main-container">
+    
+    <!-- Filter Toolbar -->
+    <div class="toolbar-header">
+      <div class="results-count" id="resultsCount">
+        Loading departments...
+      </div>
+
+      <!-- Floor Filter Pills -->
+      <div class="filter-pills" role="tablist" aria-label="Filter by floor">
+        <button class="filter-btn active" data-floor="all">All Departments</button>
+        <button class="filter-btn" data-floor="G">Ground Floor</button>
+        <button class="filter-btn" data-floor="1">1st Floor</button>
+        <button class="filter-btn" data-floor="2">2nd Floor</button>
+        <button class="filter-btn" data-floor="3">3rd Floor</button>
+        <button class="filter-btn" data-floor="B1">Basement (-1)</button>
+        <button class="filter-btn filter-emergency" data-floor="emergency">🚨 Emergency Only</button>
+      </div>
+    </div>
+
+    <!-- 15 Sample Department Cards Grid -->
+    <section class="departments-grid" id="departmentsGrid" aria-label="Hospital Departments">
+      <!-- Injected dynamically via app.js -->
+    </section>
+
+    <!-- Sample Data Notice -->
+    <p style="text-align: center; font-size: 0.8rem; color: #94a3b8; margin-top: 30px;" id="sampleDisclaimer">
+      Disclaimer: Academic demonstration layout for DTSI Project. Not officially verified with Government Hospital Vijayapura.
+    </p>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="app-footer">
+    <div class="footer-content">
+      <div style="font-weight: 800; font-size: 1.15rem; color: #0284c7;" id="footerHospitalName">
+        🏥 Government Hospital Vijayapura
+      </div>
+      <div style="font-weight: 600; color: #475569;" id="footerProjectTitle">
+        Multilingual QR Code Navigation System | DTSI Project
+      </div>
+      <div style="font-size: 0.82rem; color: #64748b;">
+        Hospital Road, Vijayapura (Bijapur) 586101, Karnataka, India
+      </div>
+      <div style="font-size: 0.82rem; color: #dc2626; font-weight: 600;">
+        <strong>Ambulance Helpline:</strong> 108 | <strong>National Emergency:</strong> 112
+      </div>
+      <div class="footer-buttons">
+        <button class="btn-header" onclick="openQrModal()">📱 QR Station & Mobile Poster</button>
+        <button class="btn-header" onclick="printHospitalPoster()">🖨️ Print Entrance Signboard</button>
+        <button class="btn-header" onclick="openAdminModal()">✏️ Edit Hospital JSON Data</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= MODAL 1: QR CODE STATION & CLOUD DEPLOYMENT ================= -->
+  <div class="modal-overlay" id="qrModal" role="dialog" aria-modal="true">
+    <div class="modal-window">
+      <div class="modal-header">
+        <div class="modal-title" id="qrModalTitle">📱 Hospital QR Code Station & Cloud Poster</div>
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 0.9rem; color: var(--text-muted);" id="qrModalSubtitle">
+          Generate and print QR codes that allow patients to open this hospital guide on their smartphones.
+        </p>
+
+        <!-- Status Indicator: Public Deployed vs Local Preview -->
+        <div style="text-align: center;">
+          <div id="qrStatusBadge" class="qr-status-indicator qr-status-warning">
+            🟡 Local Testing Mode — Public Deployment Required
+          </div>
+        </div>
+
+        <div class="qr-explainer-box" id="qrExplainerText">
+          ⚠️ <strong>Local Preview Notice:</strong> Currently running on your laptop. QR codes pointing to 'localhost' or a private Wi-Fi IP will NOT work when your laptop is switched off or for patients on mobile 4G/5G networks. To create your permanent public QR code, deploy this project online for free (instructions in README.md) and enter your public HTTPS URL below.
+        </div>
+
+        <div class="qr-preview-card">
+          <img src="" alt="Hospital Navigation QR Code" id="qrImage" class="qr-image-display">
+          
+          <div style="font-size: 0.85rem; font-weight: 700; color: #334155; text-align: left; margin-bottom: 4px;" id="qrCurrentUrlLabel">
+            Configured Website Address (URL for QR Code):
+          </div>
+          
+          <div class="qr-url-box">
+            <input type="url" id="qrUrlInput" class="qr-url-input" placeholder="https://your-app.onrender.com" value="">
+            <button class="btn-card-action btn-card-primary" id="qrRegenerateBtn">Save & Generate QR</button>
+          </div>
+
+          <div class="qr-info-note" id="qrWifiHint">
+            Note: For the final public signboard, never print a localhost or private IP QR code. Deploy online first.
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <button class="btn-card-action btn-card-primary" id="qrDownloadBtn" style="flex: 1;">
+            ⬇️ Download QR Code (PNG)
+          </button>
+          <button class="btn-card-action" id="qrPrintPosterBtn" style="flex: 1;">
+            🖨️ Print Hospital Entrance Signboard
+          </button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-card-action modal-close-btn" style="font-size: 0.88rem;">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MODAL 2: EMERGENCY GUIDANCE ================= -->
+  <div class="modal-overlay" id="emergencyModal" role="dialog" aria-modal="true">
+    <div class="modal-window">
+      <div class="modal-header modal-header-emergency">
+        <div class="modal-title" style="color: #991b1b;" id="emergencyModalTitle">
+          🚨 Urgent Emergency & Casualty Guidance
+        </div>
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 0.95rem; font-weight: 600; color: #dc2626;" id="emergencySubtitle">
+          Immediate 24/7 Critical Care Support
+        </p>
+
+        <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: var(--radius-sm); padding: 12px;">
+          <h4 style="font-size: 0.9rem; font-weight: 700; color: #991b1b; margin-bottom: 8px;" id="emergencyRushTitle">
+            Rush to Emergency (Room 001) immediately if experiencing:
+          </h4>
+          <ul class="emergency-checklist" id="emergencySignsList">
+            <!-- Populated via i18n -->
+          </ul>
+        </div>
+
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-sm); padding: 12px; font-size: 0.88rem;">
+          <p id="emergencyLocationText">
+            <strong>Location:</strong> Main Block A, Ground Floor, Room 001 (Sample Demo Location - Near Ambulance Bay).
+          </p>
+        </div>
+
+        <div class="emergency-call-grid">
+          <a href="tel:108" class="btn-emergency-call" id="callAmbulanceBtn">
+            📞 Call 108 Ambulance
+          </a>
+          <a href="tel:112" class="btn-emergency-call btn-emergency-secondary" id="callCasualtyBtn">
+            📞 Call 112 National Emergency
+          </a>
+        </div>
+
+        <button class="btn-card-action btn-card-primary" id="getCasualtyRouteBtn" style="width: 100%; padding: 10px;">
+          🚶 Show Walking Route to Casualty (Room 001)
+        </button>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-card-action modal-close-btn" style="font-size: 0.88rem;">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MODAL 3: DEPARTMENT QR MODAL ================= -->
+  <div class="modal-overlay" id="deptQrModal" role="dialog" aria-modal="true">
+    <div class="modal-window" style="max-width: 440px;">
+      <div class="modal-header">
+        <div class="modal-title" id="deptQrTitle">Department QR Code</div>
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body" style="text-align: center;">
+        <p style="font-size: 0.9rem; color: var(--text-muted);" id="deptQrText">
+          Scan to view walking directions directly on your smartphone.
+        </p>
+        <img src="" alt="Department QR" id="deptQrImage" class="qr-image-display" style="width: 200px; height: 200px;">
+        <button class="btn-card-action" id="deptQrCopyBtn" style="width: 100%; margin-top: 8px;">
+          📋 Copy Direct Navigation Link
+        </button>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-card-action modal-close-btn" style="font-size: 0.88rem;">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MODAL 4: ADMIN / MANAGE JSON DATA ================= -->
+  <div class="modal-overlay" id="adminModal" role="dialog" aria-modal="true">
+    <div class="modal-window">
+      <div class="modal-header">
+        <div class="modal-title" id="adminModalTitle">✏️ Manage Departments (JSON Data)</div>
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 0.88rem; color: var(--text-muted);" id="adminModalSubtitle">
+          All data is loaded from <code>data/departments.json</code>. You can easily edit existing rooms, add new clinics, or reset to sample defaults anytime.
+        </p>
+
+        <div style="display: flex; gap: 8px;">
+          <button class="btn-card-action btn-card-primary" id="adminAddDeptBtn">+ Add New Department</button>
+          <button class="btn-card-action" id="adminResetBtn">🔄 Reset Original Sample Data</button>
+        </div>
+
+        <div style="margin-top: 10px; max-height: 380px; overflow-y: auto;" id="adminDeptsList">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-card-action modal-close-btn" style="font-size: 0.88rem;">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= PRINT CONTAINER (Hidden in screen mode) ================= -->
+  <div id="printContainer" class="print-container" style="display: none;"></div>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

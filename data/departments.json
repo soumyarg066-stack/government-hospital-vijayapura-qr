@@ -1,0 +1,1644 @@
+[
+  {
+    "id": "emergency",
+    "icon": "🚨",
+    "badgeColor": "#dc2626",
+    "isEmergency": true,
+    "names": {
+      "en": "Emergency & Trauma Care (Casualty)",
+      "kn": "ತುರ್ತು ಮತ್ತು ಟ್ರಾಮಾ ಆರೈಕೆ (ಕ್ಯಾಶುಯಲ್ಟಿ)",
+      "hi": "आपातकालीन एवं ट्रॉमा केयर (कैजुअल्टी)"
+    },
+    "description": {
+      "en": "24/7 immediate critical care, accident trauma, resuscitation, and urgent life-support services.",
+      "kn": "24/7 ತುರ್ತು ಆರೈಕೆ, ಅಪಘಾತ ಚಿಕಿತ್ಸೆ ಮತ್ತು ತಕ್ಷಣದ ಜೀವ ರಕ್ಷಣಾ ಸೇವೆಗಳು.",
+      "hi": "24/7 तत्काल गंभीर देखभाल, दुर्घटना ट्रॉमा और आपातकालीन जीवन रक्षक सेवाएं।"
+    },
+    "building": {
+      "en": "Block A - Main Hospital Building (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಎ - ಮುಖ್ಯ ಆಸ್ಪತ್ರೆ ಕಟ್ಟಡ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक ए - मुख्य अस्पताल भवन (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "Ground Floor",
+      "kn": "ನೆಲ ಮಹಡಿ (Ground Floor)",
+      "hi": "भूतल (Ground Floor)"
+    },
+    "floorCode": "G",
+    "roomNumber": "Room 001 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Right at Gate 1, adjacent to Dedicated Ambulance Bay",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಗೇಟ್ 1 ರ ಬಲಭಾಗದಲ್ಲಿ, ಆಂಬ್ಯುಲೆನ್ಸ್ ನಿಲ್ದಾಣದ ಪಕ್ಕದಲ್ಲಿ",
+      "hi": "[नमूना लेआउट] गेट 1 के ठीक पास, एम्बुलेंस स्टैंड के बगल में"
+    },
+    "operatingHours": {
+      "en": "24 Hours / 7 Days (Always Open)",
+      "kn": "24 ಗಂಟೆಗಳು / 7 ದಿನಗಳು (ಸದಾ ತೆರೆದಿರುತ್ತದೆ)",
+      "hi": "24 घंटे / सातों दिन (हमेशा खुला)"
+    },
+    "phone": "108 (Emergency) / Ext: 108",
+    "doctors": [
+      {
+        "name": "Dr. Ramesh Rao",
+        "role": "Chief Emergency Physician, MD (Emergency Medicine)"
+      },
+      {
+        "name": "Dr. Ananya Sharma",
+        "role": "Trauma & Critical Care Specialist"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "chest pain",
+        "heart attack",
+        "severe bleeding",
+        "accident",
+        "trauma",
+        "unconscious",
+        "head injury",
+        "electric shock",
+        "poisoning",
+        "severe burn",
+        "choking",
+        "snake bite",
+        "collapse"
+      ],
+      "kn": [
+        "ಎದೆ ನೋವು",
+        "ಹೃದಯಾಘಾತ",
+        "ತೀವ್ರ ರಕ್ತಸ್ರಾವ",
+        "ಅಪಘಾತ",
+        "ಪ್ರಜ್ಞಾಹೀನತೆ",
+        "ತಲೆ ಗಾಯ",
+        "ವಿಷ ಸೇವನೆ",
+        "ಹಾವು ಕಡಿತ",
+        "ತುರ್ತು ಪರಿಸ್ಥಿತಿ"
+      ],
+      "hi": [
+        "सीने में दर्द",
+        "हार्ट अटैक",
+        "गंभीर रक्तस्राव",
+        "दुर्घटना",
+        "बेहोशी",
+        "सिर की चोट",
+        "जहर",
+        "सांप का काटना",
+        "आपातकाल",
+        "बिजली का झटका"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Enter through Hospital Main Gate 1 (Ambulance Entrance).",
+        "Look for the glowing RED 'EMERGENCY / CASUALTY' sign directly ahead.",
+        "Enter through the automatic sensor double-glass doors.",
+        "The Red Triage desk is immediately at your front (Room 001). Wheelchairs and stretchers are available at the entrance."
+      ],
+      "kn": [
+        "ಆಸ್ಪತ್ರೆಯ ಮುಖ್ಯ ಗೇಟ್ 1 (ಆಂಬ್ಯುಲೆನ್ಸ್ ಪ್ರವೇಶ ದ್ವಾರ) ಮೂಲಕ ಪ್ರವೇಶಿಸಿ.",
+        "ನೇರವಾಗಿ ಮುಂದೆ ಕಾಣುವ ಕೆಂಪು ಬಣ್ಣದ 'EMERGENCY' ಫಲಕವನ್ನು ಗಮನಿಸಿ.",
+        "ಸ್ವಯಂಚಾಲಿತ ಗಾಜಿನ ಬಾಗಿಲಿನ ಮೂಲಕ ಒಳಗೆ ಬನ್ನಿ.",
+        "ರೆಡ್ ಟ್ರಯೇಜ್ ಡೆಸ್ಕ್ (ರೂಮ್ 001) ತಕ್ಷಣ ಎದುರಿಗೆ ಕಾಣಿಸುತ್ತದೆ. ಗಾಲಿಕುರ್ಚಿಗಳು ಮತ್ತು ಸ್ಟ್ರೆಚರ್‌ಗಳು ಬಾಗಿಲಲ್ಲೇ ಲಭ್ಯವಿದೆ."
+      ],
+      "hi": [
+        "अस्पताल के मुख्य गेट 1 (एम्बुलेंस प्रवेश द्वार) से प्रवेश करें।",
+        "सीधे सामने लाल रंग के 'EMERGENCY / आपातकालीन' बोर्ड को देखें।",
+        "स्वचालित कांच के दरवाजों से अंदर प्रवेश करें।",
+        "रेड ट्राइएज डेस्क (कमरा 001) ठीक आपके सामने है। प्रवेश द्वार पर व्हीलचेयर और स्ट्रेचर उपलब्ध हैं।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "general_medicine",
+    "icon": "🩺",
+    "badgeColor": "#0284c7",
+    "isEmergency": false,
+    "names": {
+      "en": "General Medicine & Fever Clinic",
+      "kn": "ಜನರಲ್ ಮೆಡಿಸಿನ್ ಮತ್ತು ಜ್ವರ ಕ್ಲಿನಿಕ್",
+      "hi": "जनरल मेडिसिन एवं फीवर क्लिनिक"
+    },
+    "description": {
+      "en": "Comprehensive care for common fevers, viral infections, cough, diabetes, BP, weakness, and health screenings.",
+      "kn": "ಜ್ವರ, ಶೀತ, ಕೆಮ್ಮು, ಮಧುಮೇಹ, ರಕ್ತದೊತ್ತಡ ಮತ್ತು ಸಾಮಾನ್ಯ ಅನಾರೋಗ್ಯಗಳ ಸಮಗ್ರ ತಪಾಸಣೆ ಮತ್ತು ಚಿಕಿತ್ಸೆ.",
+      "hi": "सामान्य बुखार, वायरल संक्रमण, सर्दी-खांसी, कमजोरी, बीपी और संपूर्ण स्वास्थ्य जांच।"
+    },
+    "building": {
+      "en": "Block A - Main Hospital Building (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಎ - ಮುಖ್ಯ ಆಸ್ಪತ್ರೆ ಕಟ್ಟಡ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक ए - मुख्य अस्पताल भवन (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "1st Floor",
+      "kn": "1ನೇ ಮಹಡಿ",
+      "hi": "पहली मंजिल"
+    },
+    "floorCode": "1",
+    "roomNumber": "Rooms 102 - 105 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Beside Central Pharmacy, opposite Lift A",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಸೆಂಟ್ರಲ್ ಫಾರ್ಮಸಿ ಪಕ್ಕದಲ್ಲಿ, ಲಿಫ್ಟ್ ಎ ಎದುರು",
+      "hi": "[नमूना लेआउट] सेंट्रल फार्मेसी के पास, लिफ्ट ए के सामने"
+    },
+    "operatingHours": {
+      "en": "Mon - Sat: 8:00 AM - 8:00 PM | Sun: 9:00 AM - 1:00 PM",
+      "kn": "ಸೋಮ - ಶನಿ: ಬೆಳಿಗ್ಗೆ 8:00 - ರಾತ್ರಿ 8:00 | ಭಾನು: ಬೆಳಿಗ್ಗೆ 9:00 - ಮಧ್ಯಾಹ್ನ 1:00",
+      "hi": "सोम - शनि: सुबह 8:00 - रात 8:00 | रवि: सुबह 9:00 - दोपहर 1:00"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Sunil Kumar",
+        "role": "Senior Consultant Physician, MD (Internal Medicine)"
+      },
+      {
+        "name": "Dr. Prathima Gowda",
+        "role": "General Physician, MBBS, DNB"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "fever",
+        "high temperature",
+        "chills",
+        "cold",
+        "flu",
+        "cough",
+        "body ache",
+        "weakness",
+        "tiredness",
+        "headache",
+        "viral infection",
+        "dengue",
+        "malaria",
+        "typhoid",
+        "general checkup"
+      ],
+      "kn": [
+        "ಜ್ವರ",
+        "ಶೀತ",
+        "ನೆಗಡಿ",
+        "ಕೆಮ್ಮು",
+        "ಮೈಕೈನೋವು",
+        "ಸುಸ್ತು",
+        "ತಲೆನೋವು",
+        "ಡೆಂಗ್ಯೂ",
+        "ಮಲೇರಿಯಾ",
+        "ಸಾಮಾನ್ಯ ತಪಾಸಣೆ"
+      ],
+      "hi": [
+        "बुखार",
+        "तेज बुखार",
+        "ठंड लगना",
+        "सर्दी",
+        "जुकाम",
+        "खांसी",
+        "शरीर दर्द",
+        "कमजोरी",
+        "थकान",
+        "सिरदर्द",
+        "डेंगू",
+        "मलेरिया"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Enter Block A through Main Lobby.",
+        "Take Lift A or the central stairwell to the 1st Floor.",
+        "Exit Lift A and follow the BLUE floor line to your left.",
+        "General Medicine OPD consulting rooms 102 to 105 are right opposite the Nursing Station."
+      ],
+      "kn": [
+        "ಮುಖ್ಯ ಲಾಬಿ ಮೂಲಕ ಬ್ಲಾಕ್ ಎ ಪ್ರವೇಶಿಸಿ.",
+        "ಲಿಫ್ಟ್ ಎ ಅಥವಾ ಮೆಟ್ಟಿಲುಗಳ ಮೂಲಕ 1ನೇ ಮಹಡಿಗೆ ಹೋಗಿ.",
+        "ಲಿಫ್ಟ್‌ನಿಂದ ಹೊರಬಂದು ಎಡಭಾಗದ ನೀಲಿ ಗೆರೆಯನ್ನು ಹಿಂಬಾಲಿಸಿ.",
+        "ಜನರಲ್ ಮೆಡಿಸಿನ್ ಕೊಠಡಿಗಳು 102 ರಿಂದ 105 ನರ್ಸಿಂಗ್ ಸ್ಟೇಷನ್ ಎದುರಿಗೆ ಇವೆ."
+      ],
+      "hi": [
+        "मुख्य लॉबी से ब्लॉक ए में प्रवेश करें।",
+        "लिफ्ट ए या सीढ़ियों से पहली मंजिल (1st Floor) पर जाएं।",
+        "लिफ्ट से बाहर निकलकर बाईं ओर नीली लाइन का अनुसरण करें।",
+        "जनरल मेडिसिन कमरे 102 से 105 नर्सिंग स्टेशन के ठीक सामने हैं।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "dermatology",
+    "icon": "🧴",
+    "badgeColor": "#0d9488",
+    "isEmergency": false,
+    "names": {
+      "en": "Dermatology & Skin Care",
+      "kn": "ಚರ್ಮರೋಗ ಮತ್ತು ಸೌಂದರ್ಯ ಚಿಕಿತ್ಸಾ ವಿಭಾಗ",
+      "hi": "त्वचा रोग विभाग (डर्मेटोलॉजी)"
+    },
+    "description": {
+      "en": "Specialized care for all skin diseases, rashes, allergies, acne, hair fall, nails, and eczema.",
+      "kn": "ಚರ್ಮದ ಕಾಯಿಲೆಗಳು, ತುರಿಕೆ, ಕಜ್ಜಿ, ಅಲರ್ಜಿ, ಮೊಡವೆ, ಕೂದಲು ಉದುರುವಿಕೆ ಮತ್ತು ಸೋಂಕುಗಳಿಗೆ ತಜ್ಞ ಚಿಕಿತ್ಸೆ.",
+      "hi": "त्वचा के संक्रमण, खुजली, दाद, एलर्जी, मुंहासे, चकत्ते, बालों का झड़ना और सोरायसिस का इलाज।"
+    },
+    "building": {
+      "en": "Block B - OPD & Clinical Wing (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಬಿ - ಒಪಿಡಿ ವಿಭಾಗ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक बी - ओपीडी एवं क्लिनिकल विंग (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "2nd Floor",
+      "kn": "2ನೇ ಮಹಡಿ",
+      "hi": "दूसरी मंजिल"
+    },
+    "floorCode": "2",
+    "roomNumber": "Room 208 & 209 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Next to Lift B, opposite Skin Allergy Clinic",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಲಿಫ್ಟ್ ಬಿ ಪಕ್ಕದಲ್ಲಿ, ಚರ್ಮ ಅಲರ್ಜಿ ಕ್ಲಿನಿಕ್ ಎದುರು",
+      "hi": "[नमूना लेआउट] लिफ्ट बी के पास, स्किन एलर्जी क्लिनिक के सामने"
+    },
+    "operatingHours": {
+      "en": "Mon - Sat: 9:00 AM - 5:30 PM",
+      "kn": "ಸೋಮ - ಶನಿ: ಬೆಳಿಗ್ಗೆ 9:00 - ಸಂಜೆ 5:30",
+      "hi": "सोम - शनि: सुबह 9:00 - शाम 5:30"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Kavya Hegde",
+        "role": "Senior Dermatologist, MD (DVL)"
+      },
+      {
+        "name": "Dr. Arvind Patel",
+        "role": "Consultant Dermatologist & Hair Specialist"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "skin problems",
+        "skin rash",
+        "itching",
+        "skin allergy",
+        "acne",
+        "pimples",
+        "hair fall",
+        "dandruff",
+        "eczema",
+        "psoriasis",
+        "fungal infection",
+        "ringworm",
+        "dry skin",
+        "blisters",
+        "skin dark spots"
+      ],
+      "kn": [
+        "ಚರ್ಮ ಸಮಸ್ಯೆ",
+        "ಚರ್ಮದ ತುರಿಕೆ",
+        "ಕಜ್ಜಿ",
+        "ಅಲರ್ಜಿ",
+        "ಮೊಡವೆ",
+        "ಕೂದಲು ಉದುರುವಿಕೆ",
+        "ತಲೆಹೊಟ್ಟು",
+        "ದಡಾರ",
+        "ಶಿಲೀಂಧ್ರ ಸೋಂಕು",
+        "ಚರ್ಮದ ಕಲೆ"
+      ],
+      "hi": [
+        "त्वचा की समस्या",
+        "त्वचा की खुजली",
+        "दाद",
+        "खाज",
+        "चकत्ते",
+        "एलर्जी",
+        "मुंहासे",
+        "पिंपल्स",
+        "बाल झड़ना",
+        "रूसी",
+        "एक्जिमा",
+        "सोरायसिस",
+        "फंगल इन्फेक्शन"
+      ]
+    },
+    "directions": {
+      "en": [
+        "From Main Entrance, cross the ground walkway to Block B (Sushruta Wing).",
+        "Take Lift B to the 2nd Floor.",
+        "Turn right upon exiting the elevator.",
+        "Walk 15 meters along the corridor — Dermatology OPD (Room 208) is on your left."
+      ],
+      "kn": [
+        "ಮುಖ್ಯ ಪ್ರವೇಶ ದ್ವಾರದಿಂದ, ವಾಕ್‌ವೇ ಮೂಲಕ ಬ್ಲಾಕ್ ಬಿ (ಸುಶ್ರುತ ವಿಭಾಗ) ಗೆ ಹೋಗಿ.",
+        "ಲಿಫ್ಟ್ ಬಿ ಮೂಲಕ 2ನೇ ಮಹಡಿಗೆ ಹೋಗಿ.",
+        "ಲಿಫ್ಟ್‌ನಿಂದ ಹೊರಬಂದು ಬಲಕ್ಕೆ ತಿರುಗಿ.",
+        "ಕಾರಿಡಾರ್‌ನಲ್ಲಿ 15 ಮೀಟರ್ ನಡೆಯಿರಿ - ಚರ್ಮರೋಗ ವಿಭಾಗ (ರೂಮ್ 208) ಎಡಭಾಗದಲ್ಲಿದೆ."
+      ],
+      "hi": [
+        "मुख्य प्रवेश द्वार से ब्लॉक बी (सुश्रुत विंग) की ओर जाएं।",
+        "लिफ्ट बी से दूसरी मंजिल (2nd Floor) पर जाएं।",
+        "लिफ्ट से बाहर निकलकर दाईं ओर मुड़ें।",
+        "कॉरिडोर में 15 मीटर आगे बढ़ें — डर्मेटोलॉजी ओपीडी (कमरा 208) बाईं ओर स्थित है।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "dental",
+    "icon": "🦷",
+    "badgeColor": "#0891b2",
+    "isEmergency": false,
+    "names": {
+      "en": "Dental Surgery & Oral Health",
+      "kn": "ದಂತ ವೈದ್ಯಕೀಯ ಮತ್ತು ಮುಖ-ದವಡೆ ಆರೈಕೆ ವಿಭಾಗ",
+      "hi": "दंत चिकित्सा एवं मुख स्वास्थ्य विभाग"
+    },
+    "description": {
+      "en": "Complete oral healthcare including toothache relief, root canals, braces, extractions, cleaning, and implants.",
+      "kn": "ಹಲ್ಲುನೋವು, ಹಲ್ಲು ಕೀಳುವುದು, ರೂಟ್ ಕೆನಾಲ್, ವಸಡು ಸಮಸ್ಯೆ ಮತ್ತು ಹಲ್ಲು ಸ್ವಚ್ಛತೆಗೆ ಆಧುನಿಕ ಚಿಕಿತ್ಸೆ.",
+      "hi": "दांत दर्द, मसूड़ों की समस्या, रूट कैनाल, कैविटी, दांत निकलवाना और ओरल केयर का पूर्ण उपचार।"
+    },
+    "building": {
+      "en": "Block B - OPD & Clinical Wing (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಬಿ - ಒಪಿಡಿ ವಿಭಾಗ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक बी - ओपीडी एवं क्लिनिकल विंग (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "1st Floor",
+      "kn": "1ನೇ ಮಹಡಿ",
+      "hi": "पहली मंजिल"
+    },
+    "floorCode": "1",
+    "roomNumber": "Room 114 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Beside Dental X-Ray & OPG Room, near Lounge B",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಡೆಂಟಲ್ ಎಕ್ಸರೇ ಕೊಠಡಿ ಪಕ್ಕದಲ್ಲಿ, ಲೌಂಜ್ ಬಿ ಹತ್ತಿರ",
+      "hi": "[नमूना लेआउट] डेंटल एक्स-रे रूम के बगल में, लाउंज बी के पास"
+    },
+    "operatingHours": {
+      "en": "Mon - Sat: 8:30 AM - 6:00 PM",
+      "kn": "ಸೋಮ - ಶನಿ: ಬೆಳಿಗ್ಗೆ 8:30 - ಸಂಜೆ 6:00",
+      "hi": "सोम - शनि: सुबह 8:30 - शाम 6:00"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Rajeshwar Swamy",
+        "role": "Chief Dental Surgeon, MDS (Oral Surgery)"
+      },
+      {
+        "name": "Dr. Divya Nambiar",
+        "role": "Endodontist & Conservative Dentist, MDS"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "tooth pain",
+        "toothache",
+        "bleeding gums",
+        "cavity",
+        "swollen jaw",
+        "wisdom tooth pain",
+        "broken tooth",
+        "sensitive teeth",
+        "bad breath",
+        "gum infection",
+        "loose tooth",
+        "denture problem"
+      ],
+      "kn": [
+        "ಹಲ್ಲುನೋವು",
+        "ವಸಡು ರಕ್ತಸ್ರಾವ",
+        "ಹಲ್ಲು ಹುಳುಕು",
+        "ದವಡೆ ನೋವು",
+        "ಹಲ್ಲು ಮುರಿತ",
+        "ಹಲ್ಲು ಜುಮ್ಮು ಅನ್ನುವುದು",
+        "ಬಾಯಿ ವಾಸನೆ",
+        "ವಸಡು ಊತ"
+      ],
+      "hi": [
+        "दांत दर्द",
+        "मसूड़ों से खून आना",
+        "कैविटी",
+        "दांत में कीड़ा",
+        "जबड़े में सूजन",
+        "अक्ल दाढ़ का दर्द",
+        "दांत टूटना",
+        "दांतों में झनझनाहट",
+        "मसूड़ों में दर्द"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Head to Block B (Sushruta Wing).",
+        "Take stairs or Lift B to the 1st Floor.",
+        "Turn right past Waiting Lounge 2.",
+        "The Dental Suite (Room 114) is located directly at the end of the corridor, next to Dental X-Ray."
+      ],
+      "kn": [
+        "ಬ್ಲಾಕ್ ಬಿ (ಸುಶ್ರುತ ವಿಭಾಗ) ಗೆ ಹೋಗಿ.",
+        "ಮೆಟ್ಟಿಲುಗಳು ಅಥವಾ ಲಿಫ್ಟ್ ಬಿ ಬಳಸಿ 1ನೇ ಮಹಡಿಗೆ ಹೋಗಿ.",
+        "ಕಾಯುವ ಲೌಂಜ್ 2 ದಾಟಿ ಬಲಕ್ಕೆ ತಿರುಗಿ.",
+        "ದಂತ ಚಿಕಿತ್ಸಾ ಕೊಠಡಿ (ರೂಮ್ 114) ಕಾರಿಡಾರ್ ಕೊನೆಯಲ್ಲಿ, ಡೆಂಟಲ್ ಎಕ್ಸರೇ ಪಕ್ಕದಲ್ಲಿದೆ."
+      ],
+      "hi": [
+        "ब्लॉक बी (सुश्रुत विंग) की ओर बढ़ें।",
+        "सीढ़ियों या लिफ्ट बी से पहली मंजिल पर जाएं।",
+        "वेटिंग लाउंज 2 के पार दाईं ओर मुड़ें।",
+        "डेंटल सुइट (कमरा 114) गलियारे के अंत में डेंटल एक्स-रे के ठीक बगल में स्थित है।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "ophthalmology",
+    "icon": "👁️",
+    "badgeColor": "#2563eb",
+    "isEmergency": false,
+    "names": {
+      "en": "Ophthalmology (Eye Clinic)",
+      "kn": "ನೇತ್ರ ಚಿಕಿತ್ಸಾ ವಿಭಾಗ (ಕಣ್ಣಿನ ಆಸ್ಪತ್ರೆ)",
+      "hi": "नेत्र रोग विभाग (आंखों की क्लिनिक)"
+    },
+    "description": {
+      "en": "Expert vision care, cataract evaluation, glaucoma screening, spectacle prescription, and eye trauma treatment.",
+      "kn": "ದೃಷ್ಟಿ ತಪಾಸಣೆ, ಕಣ್ಣಿನ ಪೊರೆ, ಗ್ಲುಕೋಮಾ, ಕನ್ನಡಕ ಪರೀಕ್ಷೆ ಮತ್ತು ಕಣ್ಣಿನ ಸೋಂಕುಗಳಿಗೆ ನಿಖರ ಚಿಕಿತ್ಸೆ.",
+      "hi": "दृष्टि जांच, मोतियाबिंद का इलाज, ग्लूकोमा जांच, चश्मे का नंबर और आंखों के संक्रमण का विशेषज्ञ उपचार।"
+    },
+    "building": {
+      "en": "Block A - Main Hospital Building (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಎ - ಮುಖ್ಯ ಆಸ್ಪತ್ರೆ ಕಟ್ಟಡ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक ए - मुख्य अस्पताल भवन (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "2nd Floor",
+      "kn": "2ನೇ ಮಹಡಿ",
+      "hi": "दूसरी मंजिल"
+    },
+    "floorCode": "2",
+    "roomNumber": "Room 215 & Vision Lab (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Opposite Vision Testing Room, beside In-house Optical Store",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ದೃಷ್ಟಿ ಪರೀಕ್ಷಾ ಕೊಠಡಿ ಎದುರು, ಆಪ್ಟಿಕಲ್ ಅಂಗಡಿಯ ಪಕ್ಕದಲ್ಲಿ",
+      "hi": "[नमूना लेआउट] विजन टेस्टिंग रूम के सामने, ऑप्टिकल शॉप के पास"
+    },
+    "operatingHours": {
+      "en": "Mon - Sat: 9:00 AM - 5:00 PM",
+      "kn": "ಸೋಮ - ಶನಿ: ಬೆಳಿಗ್ಗೆ 9:00 - ಸಂಜೆ 5:00",
+      "hi": "सोम - शनि: सुबह 9:00 - शाम 5:00"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Meenakshi Sunder",
+        "role": "Chief Ophthalmologist & Cataract Surgeon, MS (Ophth)"
+      },
+      {
+        "name": "Dr. Rohit Verma",
+        "role": "Retina & Glaucoma Specialist"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "eye problems",
+        "blurred vision",
+        "eye pain",
+        "eye redness",
+        "watery eyes",
+        "burning eyes",
+        "cataract",
+        "loss of vision",
+        "foreign object in eye",
+        "spectacle power test",
+        "dry eyes",
+        "double vision"
+      ],
+      "kn": [
+        "ಕಣ್ಣಿನ ಸಮಸ್ಯೆ",
+        "ಮಸುಕಾದ ದೃಷ್ಟಿ",
+        "ಕಣ್ಣಿನ ನೋವು",
+        "ಕಣ್ಣು ಕೆಂಪಾಗುವುದು",
+        "ಕಣ್ಣಿನಲ್ಲಿ ನೀರು ಬರುವುದು",
+        "ಕಣ್ಣಿನ ಪೊರೆ",
+        "ದೃಷ್ಟಿ ಮಂದವಾಗುವುದು",
+        "ಕನ್ನಡಕ ಪರೀಕ್ಷೆ"
+      ],
+      "hi": [
+        "आँख की समस्या",
+        "धुंधला दिखना",
+        "आँख में दर्द",
+        "आँख लाल होना",
+        "आँखों से पानी आना",
+        "मोतियाबिंद",
+        "आँखों में जलन",
+        "चश्मे का नंबर",
+        "सूखी आँखें"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Enter Block A main elevator lobby.",
+        "Take Lift A to the 2nd Floor.",
+        "Step out and look for the YELLOW floor line.",
+        "Follow the yellow line straight for 20 meters. Eye Clinic (Room 215) is on your right next to the Optical Store."
+      ],
+      "kn": [
+        "ಬ್ಲಾಕ್ ಎ ಮುಖ್ಯ ಲಿಫ್ಟ್ ಲಾಬಿಗೆ ಬನ್ನಿ.",
+        "ಲಿಫ್ಟ್ ಎ ಮೂಲಕ 2ನೇ ಮಹಡಿಗೆ ಹೋಗಿ.",
+        "ಹೊರಬಂದು ನೆಲದ ಮೇಲಿರುವ ಹಳದಿ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ.",
+        "ಹಳದಿ ಗೆರೆಯನ್ನು ಹಿಂಬಾಲಿಸಿ 20 ಮೀಟರ್ ನಡೆಯಿರಿ. ಕಣ್ಣಿನ ಕ್ಲಿನಿಕ್ (ರೂಮ್ 215) ಆಪ್ಟಿಕಲ್ ಅಂಗಡಿ ಪಕ್ಕದಲ್ಲಿ ನಿಮ್ಮ ಬಲಭಾಗದಲ್ಲಿದೆ."
+      ],
+      "hi": [
+        "ब्लॉक ए मुख्य लिफ्ट लॉबी में जाएं।",
+        "लिफ्ट ए से दूसरी मंजिल पर जाएं।",
+        "बाहर निकलकर फर्श पर पीली लाइन देखें।",
+        "पीली लाइन का अनुसरण करते हुए 20 मीटर सीधे चलें। नेत्र क्लिनिक (कमरा 215) ऑप्टिकल स्टोर के पास दाईं ओर है।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "orthopaedics",
+    "icon": "🦴",
+    "badgeColor": "#d97706",
+    "isEmergency": false,
+    "names": {
+      "en": "Orthopaedics & Joint Care",
+      "kn": "ಮೂಳೆ ಮತ್ತು ಕೀಲು ರೋಗಗಳ ಚಿಕಿತ್ಸಾ ವಿಭಾಗ",
+      "hi": "हड्डी एवं जोड़ रोग विभाग (ऑर्थोपेडिक्स)"
+    },
+    "description": {
+      "en": "Advanced care for bone fractures, arthritis, knee/hip pain, spine issues, sports injuries, and joint replacement.",
+      "kn": "ಮೂಳೆ ಮುರಿತ, ಕೀಲು ನೋವು, ಮೊಣಕಾಲು ನೋವು, ಬೆನ್ನು ನೋವು, ಜಾಯಿಂಟ್ ರಿಪ್ಲೇಸ್‌ಮೆಂಟ್ ಮತ್ತು ಆರ್ಥ್ರೈಟಿಸ್ ಚಿಕಿತ್ಸೆ.",
+      "hi": "हड्डी फ्रैक्चर, जोड़ों का दर्द, घुटने व कमर का दर्द, गठिया, स्पाइन और स्पोर्ट्स इंजरी का संपूर्ण इलाज।"
+    },
+    "building": {
+      "en": "Block A - Main Hospital Building (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಎ - ಮುಖ್ಯ ಆಸ್ಪತ್ರೆ ಕಟ್ಟಡ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक ए - मुख्य अस्पताल भवन (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "Ground Floor",
+      "kn": "ನೆಲ ಮಹಡಿ (Ground Floor)",
+      "hi": "भूतल (Ground Floor)"
+    },
+    "floorCode": "G",
+    "roomNumber": "Rooms 016 - 018 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Wheelchair ramp accessible, right next to Plaster Room and Digital X-Ray",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಗಾಲಿಕುರ್ಚಿ ರ‍್ಯಾಂಪ್ ಪ್ರವೇಶ, ಪ್ಲಾಸ್ಟರ್ ರೂಮ್ ಮತ್ತು ಡಿಜಿಟಲ್ ಎಕ್ಸರೇ ಪಕ್ಕದಲ್ಲಿ",
+      "hi": "[नमूना लेआउट] व्हीलचेयर रैंप के पास, प्लास्टर रूम और डिजिटल एक्स-रे के ठीक बगल में"
+    },
+    "operatingHours": {
+      "en": "Mon - Sat: 8:30 AM - 7:00 PM",
+      "kn": "ಸೋಮ - ಶನಿ: ಬೆಳಿಗ್ಗೆ 8:30 - ಸಂಜೆ 7:00",
+      "hi": "सोम - शनि: सुबह 8:30 - शाम 7:00"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Manjunath Reddy",
+        "role": "Senior Orthopaedic Surgeon, MS (Ortho), MCh"
+      },
+      {
+        "name": "Dr. Vikas Joshi",
+        "role": "Joint Replacement & Arthroscopy Specialist"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "bone pain",
+        "fracture",
+        "broken bone",
+        "knee pain",
+        "back pain",
+        "joint pain",
+        "sprain",
+        "swollen ankle",
+        "neck pain",
+        "arthritis",
+        "hip pain",
+        "shoulder pain",
+        "difficulty walking",
+        "osteoporosis"
+      ],
+      "kn": [
+        "ಮೂಳೆ ನೋವು",
+        "ಮೂಳೆ ಮುರಿತ",
+        "ಮೊಣಕಾಲು ನೋವು",
+        "ಬೆನ್ನು ನೋವು",
+        "ಕೀಲು ನೋವು",
+        "ಮೂಳೆ ಊತ",
+        "ಕುತ್ತಿಗೆ ನೋವು",
+        "ಕೀಲು ಊತ",
+        "ನಡೆಯಲು ಕಷ್ಟ"
+      ],
+      "hi": [
+        "हड्डियों का दर्द",
+        "हड्डी टूटना",
+        "फ्रैक्चर",
+        "घुटने का दर्द",
+        "कमर दर्द",
+        "पीठ दर्द",
+        "जोड़ों का दर्द",
+        "मोच",
+        "गठिया",
+        "गर्दन दर्द",
+        "कंधे का दर्द"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Enter Block A from the Main Entrance.",
+        "Take the wide corridor on your right (marked with GREEN wheelchair accessibility signs).",
+        "Pass the Central Registration counters.",
+        "Orthopaedics OPD (Rooms 016-018) is on your left, directly adjacent to the Plaster Room."
+      ],
+      "kn": [
+        "ಮುಖ್ಯ ಪ್ರವೇಶ ದ್ವಾರದಿಂದ ಬ್ಲಾಕ್ ಎ ಪ್ರವೇಶಿಸಿ.",
+        "ನಿಮ್ಮ ಬಲಭಾಗದಲ್ಲಿರುವ ವಿಶಾಲವಾದ ಕಾರಿಡಾರ್ (ಹಸಿರು ಗಾಲಿಕುರ್ಚಿ ಸಂಕೇತ) ಮೂಲಕ ಸಾಗಿ.",
+        "ಮುಖ್ಯ ನೋಂದಣಿ ಕೌಂಟರ್‌ಗಳನ್ನು ದಾಟಿ ಮುಂದೆ ಬನ್ನಿ.",
+        "ಆರ್ಥೋಪೆಡಿಕ್ಸ್ ಒಪಿಡಿ (ಕೊಠಡಿಗಳು 016-018) ಪ್ಲಾಸ್ಟರ್ ರೂಮ್ ಪಕ್ಕದಲ್ಲಿ ನಿಮ್ಮ ಎಡಭಾಗದಲ್ಲಿದೆ."
+      ],
+      "hi": [
+        "मुख्य प्रवेश द्वार से ब्लॉक ए में प्रवेश करें।",
+        "दाईं ओर चौड़े गलियारे (हरे रंग का व्हीलचेयर संकेत) की ओर जाएं।",
+        "सेंट्रल रजिस्ट्रेशन काउंटर के आगे बढ़ें।",
+        "ऑर्थोपेडिक्स ओपीडी (कमरा 016-018) प्लास्टर रूम के ठीक बगल में बाईं ओर है।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "cardiology",
+    "icon": "❤️",
+    "badgeColor": "#e11d48",
+    "isEmergency": false,
+    "names": {
+      "en": "Cardiology (Heart Institute)",
+      "kn": "ಹೃದ್ರೋಗ ವಿಭಾಗ (ಕಾರ್ಡಿಯಾಲಜಿ)",
+      "hi": "हृदय रोग विभाग (कार्डियोलॉजी)"
+    },
+    "description": {
+      "en": "Advanced diagnostic and interventional cardiac care, ECG, ECHO, TMT, angiogram, and hypertension management.",
+      "kn": "ಹೃದಯದ ಕಾಯಿಲೆಗಳು, ಇಸಿಜಿ, ಎಕೋ, ಅಧಿಕ ರಕ್ತದೊತ್ತಡ ಮತ್ತು ಆಂಜಿಯೋಗ್ರಾಮ್ ತಪಾಸಣೆ.",
+      "hi": "हृदय संबंधी बीमारियां, ईसीजी, इको, टीएमटी, हाई ब्लड प्रेशर और कार्डियक केयर का आधुनिक उपचार।"
+    },
+    "building": {
+      "en": "Block C - Super-Speciality Wing (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಸಿ - ಸೂಪರ್ ಸ್ಪೆಷಾಲಿಟಿ ವಿಭಾಗ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक सी - सुपर स्पेशियलिटी विंग (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "1st Floor",
+      "kn": "1ನೇ ಮಹಡಿ",
+      "hi": "पहली मंजिल"
+    },
+    "floorCode": "1",
+    "roomNumber": "Rooms 120 - 122 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Next to ECG / Echo Lab & Cath Lab, near Cardiac Waiting Lounge",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಇಸಿಜಿ / ಎಕೋ ಲ್ಯಾಬ್ ಪಕ್ಕದಲ್ಲಿ, ಕಾರ್ಡಿಯಾಕ್ ಲೌಂಜ್ ಹತ್ತಿರ",
+      "hi": "[नमूना लेआउट] ईसीजी / इको लैब के पास, कार्डियक लाउंज के बगल में"
+    },
+    "operatingHours": {
+      "en": "Mon - Sat: 9:00 AM - 6:00 PM | Emergency 24/7",
+      "kn": "ಸೋಮ - ಶನಿ: ಬೆಳಿಗ್ಗೆ 9:00 - ಸಂಜೆ 6:00 | ತುರ್ತು ಸೇವೆ 24/7",
+      "hi": "सोम - शनि: सुबह 9:00 - शाम 6:00 | आपातकालीन 24/7"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Harish Bhatt",
+        "role": "Chief Interventional Cardiologist, DM (Cardiology)"
+      },
+      {
+        "name": "Dr. Sneha Kulkarni",
+        "role": "Cardiologist & Electrophysiologist, MD, DNB"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "chest pain",
+        "heart palpitations",
+        "shortness of breath",
+        "high blood pressure",
+        "rapid pulse",
+        "chest tightness",
+        "dizziness while walking",
+        "heart fluttering",
+        "angina"
+      ],
+      "kn": [
+        "ಎದೆ ನೋವು",
+        "ಹೃದಯ ಬಡಿತ ಹೆಚ್ಚಳ",
+        "ಉಸಿರಾಟದ ತೊಂದರೆ",
+        "ಅಧಿಕ ರಕ್ತದೊತ್ತಡ (ಬಿಪಿ)",
+        "ಎದೆ ಬಿಗಿತ",
+        "ತಲೆಸುತ್ತು"
+      ],
+      "hi": [
+        "सीने में दर्द",
+        "दिल की धड़कन तेज होना",
+        "सांस फूलना",
+        "हाई ब्लड प्रेशर (बीपी)",
+        "सीने में भारीपन",
+        "चक्कर आना",
+        "घबराहट"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Head to Block C (Charaka Super-Speciality wing).",
+        "Take Glass Elevator C to the 1st Floor.",
+        "Turn right and follow the RED HEART icons on the floor.",
+        "Cardiology OPD reception (Room 120) is right in front of the ECG diagnostic room."
+      ],
+      "kn": [
+        "ಬ್ಲಾಕ್ ಸಿ (ಚರಕ ಸೂಪರ್-ಸ್ಪೆಷಾಲಿಟಿ ವಿಭಾಗ) ಕಡೆಗೆ ಸಾಗಿ.",
+        "ಗ್ಲಾಸ್ ಲಿಫ್ಟ್ ಸಿ ಬಳಸಿ 1ನೇ ಮಹಡಿಗೆ ಹೋಗಿ.",
+        "ಬಲಕ್ಕೆ ತಿರುಗಿ ನೆಲದ ಮೇಲಿರುವ ಕೆಂಪು ಹೃದಯದ ಗುರುತನ್ನು ಹಿಂಬಾಲಿಸಿ.",
+        "ಕಾರ್ಡಿಯಾಲಜಿ ಒಪಿಡಿ (ರೂಮ್ 120) ಇಸಿಜಿ ಕೊಠಡಿಯ ಎದುರಿಗೆ ಇದೆ."
+      ],
+      "hi": [
+        "ब्लॉक सी (चरक सुपर-स्पेशियलिटी विंग) की ओर बढ़ें।",
+        "ग्लास लिफ्ट सी से पहली मंजिल पर जाएं।",
+        "दाईं ओर मुड़ें और फर्श पर बने लाल दिल के निशानों का अनुसरण करें।",
+        "कार्डियोलॉजी ओपीडी (कमरा 120) ईसीजी टेस्टिंग रूम के ठीक सामने है।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "paediatrics",
+    "icon": "👶",
+    "badgeColor": "#f59e0b",
+    "isEmergency": false,
+    "names": {
+      "en": "Paediatrics & Child Health",
+      "kn": "ಮಕ್ಕಳ ಆರೋಗ್ಯ ಮತ್ತು ಲಸಿಕಾ ವಿಭಾಗ",
+      "hi": "बाल रोग एवं शिशु स्वास्थ्य विभाग (पीडियाट्रिक्स)"
+    },
+    "description": {
+      "en": "Dedicated, child-friendly care for newborns, infants, children, and teens. Vaccinations, nutrition, and illness care.",
+      "kn": "ನವಜಾತ ಶಿಶುಗಳು ಮತ್ತು ಮಕ್ಕಳ ಜ್ವರ, ಸೋಂಕು, ಬೆಳವಣಿಗೆ ಮತ್ತು ರೋಗನಿರೋಧಕ ಲಸಿಕೆಗಳ ಸಮಗ್ರ ಆರೈಕೆ.",
+      "hi": "नवजात शिशुओं और बच्चों के बुखार, खांसी, पोषण, विकास और नियमित टीकाकरण की बाल-सुलभ देखभाल।"
+    },
+    "building": {
+      "en": "Block B - OPD & Clinical Wing (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಬಿ - ಒಪಿಡಿ ವಿಭಾಗ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक बी - ओपीडी एवं क्लिनिकल विंग (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "Ground Floor",
+      "kn": "ನೆಲ ಮಹಡಿ (Ground Floor)",
+      "hi": "भूतल (Ground Floor)"
+    },
+    "floorCode": "G",
+    "roomNumber": "Rooms 022 - 025 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Beside Kids Play Zone & Baby Care Lounge, bright cartoon mural wall",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಮಕ್ಕಳ ಆಟದ ಸ್ಥಳ ಮತ್ತು ಬೇಬಿ ಕೇರ್ ಲೌಂಜ್ ಪಕ್ಕದಲ್ಲಿ, ಕಾರ್ಟೂನ್ ಗೋಡೆ",
+      "hi": "[नमूना लेआउट] बच्चों के प्ले एरिया और बेबी केयर लाउंज के बगल में, कार्टून वॉल"
+    },
+    "operatingHours": {
+      "en": "Mon - Sat: 8:00 AM - 8:00 PM | 24/7 Paediatric Emergency Support",
+      "kn": "ಸೋಮ - ಶನಿ: ಬೆಳಿಗ್ಗೆ 8:00 - ರಾತ್ರಿ 8:00 | ಮಕ್ಕಳ ತುರ್ತು ಸೇವೆ 24/7",
+      "hi": "सोम - शनि: सुबह 8:00 - रात 8:00 | बाल आपातकालीन सेवा 24/7"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Shilpa Murthy",
+        "role": "Senior Paediatrician, MD (Paediatrics), FIAP"
+      },
+      {
+        "name": "Dr. Tarun Saxena",
+        "role": "Neonatologist & Child Health Specialist"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "child fever",
+        "baby cough",
+        "infant vomiting",
+        "child health",
+        "vaccination",
+        "poor feeding in baby",
+        "child stomach pain",
+        "child rash",
+        "growth milestone delay",
+        "ear infection in child"
+      ],
+      "kn": [
+        "ಮಕ್ಕಳ ಜ್ವರ",
+        "ಮಕ್ಕಳ ಕೆಮ್ಮು",
+        "ಶಿಶು ವಾಂತಿ",
+        "ಮಕ್ಕಳಿಗೆ ಲಸಿಕೆ",
+        "ಮಕ್ಕಳ ಹೊಟ್ಟೆ ನೋವು",
+        "ಹಾಲು ಕುಡಿಯದಿರುವುದು",
+        "ಮಕ್ಕಳ ಬೆಳವಣಿಗೆ"
+      ],
+      "hi": [
+        "बच्चों का बुखार",
+        "शिशु की खांसी",
+        "बच्चे की उल्टी",
+        "टीकाकरण (वैक्सीनेशन)",
+        "बच्चों का पेट दर्द",
+        "दूध न पीना",
+        "शिशु स्वास्थ्य"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Enter Block B through the child-friendly garden entrance.",
+        "Stay on the Ground Floor.",
+        "Follow the colorful animal floor decals on your left.",
+        "The Paediatric OPD (Rooms 022-025) is located inside the Kids Zone, directly next to the Vaccination Room."
+      ],
+      "kn": [
+        "ಗಾರ್ಡನ್ ಪ್ರವೇಶ ದ್ವಾರದ ಮೂಲಕ ಬ್ಲಾಕ್ ಬಿ ಪ್ರವೇಶಿಸಿ.",
+        "ನೆಲ ಮಹಡಿಯಲ್ಲೇ ಇರಿ.",
+        "ಎಡಭಾಗದಲ್ಲಿರುವ ಬಣ್ಣಬಣ್ಣದ ಪ್ರಾಣಿಗಳ ನೆಲಚಿಹ್ನೆಗಳನ್ನು ಹಿಂಬಾಲಿಸಿ.",
+        "ಮಕ್ಕಳ ಒಪಿಡಿ (ಕೊಠಡಿಗಳು 022-025) ಕಿಡ್ಸ್ ಜೋನ್ ಒಳಗೆ, ಲಸಿಕಾ ಕೊಠಡಿಯ ಪಕ್ಕದಲ್ಲಿದೆ."
+      ],
+      "hi": [
+        "गार्डन प्रवेश द्वार से ब्लॉक बी में प्रवेश करें।",
+        "भूतल (Ground Floor) पर ही रहें।",
+        "बाईं ओर बने रंग-बिरंगे जानवरों के फुटप्रिंट्स का पीछा करें।",
+        "पीडियाट्रिक ओपीडी (कमरा 022-025) किड्स प्ले एरिया के पास वैक्सीनेशन रूम के बगल में स्थित है।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "gynaecology",
+    "icon": "🤰",
+    "badgeColor": "#ec4899",
+    "isEmergency": false,
+    "names": {
+      "en": "Obstetrics & Gynaecology (Women's Health)",
+      "kn": "ಸ್ತ್ರೀರೋಗ ಮತ್ತು ಪ್ರಸೂತಿ ವಿಭಾಗ (ಮಹಿಳಾ ಆರೋಗ್ಯ)",
+      "hi": "प्रसूति एवं स्त्री रोग विभाग (महिला स्वास्थ्य)"
+    },
+    "description": {
+      "en": "Comprehensive maternity, antenatal checkups, high-risk pregnancy, delivery, PCOS, and women's health wellness.",
+      "kn": "ಗರ್ಭಾವಸ್ಥೆಯ ತಪಾಸಣೆ, ಸುರಕ್ಷಿತ ಹೆರಿಗೆ, ಪಿಸಿಓಎಸ್, ಋತುಚಕ್ರದ ತೊಂದರೆ ಮತ್ತು ಮಹಿಳಾ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳಿಗೆ ನುರಿತ ವೈದ್ಯರು.",
+      "hi": "गर्भावस्था देखभाल, प्रसव, पीसीओडी/पीसीओएस, अनियमित माहवारी और महिलाओं के संपूर्ण स्वास्थ्य का उपचार।"
+    },
+    "building": {
+      "en": "Block C - Super-Speciality Wing (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಸಿ - ಸೂಪರ್ ಸ್ಪೆಷಾಲಿಟಿ ವಿಭಾಗ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक सी - सुपर स्पेशियलिटी विंग (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "2nd Floor",
+      "kn": "2ನೇ ಮಹಡಿ",
+      "hi": "दूसरी मंजिल"
+    },
+    "floorCode": "2",
+    "roomNumber": "Rooms 225 - 228 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Opposite Obstetric Ultrasound Room 3, beside Women's Lounge",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಅಲ್ಟ್ರಾಸೌಂಡ್ ಸ್ಕ್ಯಾನಿಂಗ್ ರೂಮ್ 3 ಎದುರು, ಮಹಿಳಾ ವಿಶ್ರಾಂತಿ ಕೊಠಡಿ ಪಕ್ಕ",
+      "hi": "[नमूना लेआउट] अल्ट्रासाउंड रूम 3 के सामने, महिला लाउंज के बगल में"
+    },
+    "operatingHours": {
+      "en": "Mon - Sat: 8:30 AM - 7:00 PM | Labour Room 24/7",
+      "kn": "ಸೋಮ - ಶನಿ: ಬೆಳಿಗ್ಗೆ 8:30 - ಸಂಜೆ 7:00 | ಹೆರಿಗೆ ವಿಭಾಗ 24/7",
+      "hi": "सोम - शनि: सुबह 8:30 - शाम 7:00 | लेबर रूम 24/7"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Geeta Nambisan",
+        "role": "Chief Obstetrician & Gynaecologist, MD, FRCOG"
+      },
+      {
+        "name": "Dr. Radhika Desai",
+        "role": "High-Risk Pregnancy & Laparoscopic Surgeon"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "pregnancy",
+        "maternity checkup",
+        "menstrual pain",
+        "irregular periods",
+        "heavy bleeding",
+        "pcos",
+        "pcod",
+        "pelvic pain",
+        "morning sickness",
+        "white discharge",
+        "fertility consultation"
+      ],
+      "kn": [
+        "ಗರ್ಭಾವಸ್ಥೆ",
+        "ಗರ್ಭಿಣಿ ತಪಾಸಣೆ",
+        "ಮುಟ್ಟಿನ ನೋವು",
+        "ಅನಿಯಮಿತ ಋತುಚಕ್ರ",
+        "ಪಿಸಿಓಡಿ",
+        "ಹೊಟ್ಟೆ ಸೆಳೆತ",
+        "ಹೆರಿಗೆ ನೋವು"
+      ],
+      "hi": [
+        "गर्भावस्था",
+        "प्रेगनेंसी चेकअप",
+        "मासिक धर्म में दर्द",
+        "अनियमित माहवारी",
+        "पीसीओडी",
+        "सफेद पानी",
+        "प्रसव पीड़ा",
+        "पेल्विक दर्द"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Enter Block C through the South Porch.",
+        "Take Elevator C to the 2nd Floor.",
+        "Turn left out of the elevator into the Mother & Child Wing.",
+        "Follow the PINK floor guide to Rooms 225 - 228 (Gynaecology OPD)."
+      ],
+      "kn": [
+        "ದಕ್ಷಿಣ ಪ್ರವೇಶ ದ್ವಾರದ ಮೂಲಕ ಬ್ಲಾಕ್ ಸಿ ಪ್ರವೇಶಿಸಿ.",
+        "ಲಿಫ್ಟ್ ಸಿ ಮೂಲಕ 2ನೇ ಮಹಡಿಗೆ ಹೋಗಿ.",
+        "ಲಿಫ್ಟ್‌ನಿಂದ ಎಡಕ್ಕೆ ತಿರುಗಿ ತಾಯಿ ಮತ್ತು ಮಕ್ಕಳ ವಿಭಾಗಕ್ಕೆ ಬನ್ನಿ.",
+        "ನೆಲದ ಮೇಲಿರುವ ಗುಲಾಬಿ ಗೆರೆಯನ್ನು ಹಿಂಬಾಲಿಸಿ ಕೊಠಡಿ 225 - 228 ತಲುಪಿ."
+      ],
+      "hi": [
+        "साउथ पोर्च से ब्लॉक सी में प्रवेश करें।",
+        "लिफ्ट सी से दूसरी मंजिल पर जाएं।",
+        "लिफ्ट से बाहर निकलकर बाईं ओर 'मदर एंड चाइल्ड विंग' में मुड़ें।",
+        "फर्श पर गुलाबी लाइन का पीछा करते हुए कमरा 225 - 228 तक पहुंचें।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "ent",
+    "icon": "👂",
+    "badgeColor": "#6366f1",
+    "isEmergency": false,
+    "names": {
+      "en": "ENT - Ear, Nose & Throat",
+      "kn": "ಕಿವಿ, ಮೂಗು ಮತ್ತು ಗಂಟಲು ವಿಭಾಗ (ಇಎನ್‌ಟಿ)",
+      "hi": "कान, नाक एवं गला विभाग (ईएनटी)"
+    },
+    "description": {
+      "en": "Diagnostics and microsurgery for ear infections, hearing loss, sinusitis, tonsillitis, vertigo, and snoring.",
+      "kn": "ಕಿವಿ ಸೋಂಕು, ಕಿವುಡುತನ, ಸೈನಸ್, ಗಂಟಲು ಊತ, ತಲೆತಿರುಗುವಿಕೆ ಮತ್ತು ಗೊರಕೆ ಸಮಸ್ಯೆಗಳಿಗೆ ವಿಶೇಷ ಚಿಕಿತ್ಸೆ.",
+      "hi": "कान में दर्द, कम सुनाई देना, साइनस, टॉन्सिल, गले में खराश और वर्टिगो (चक्कर आना) का विशेषज्ञ इलाज।"
+    },
+    "building": {
+      "en": "Block B - OPD & Clinical Wing (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಬಿ - ಒಪಿಡಿ ವಿಭಾಗ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक बी - ओपीडी एवं क्लिनिकल विंग (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "1st Floor",
+      "kn": "1ನೇ ಮಹಡಿ",
+      "hi": "पहली मंजिल"
+    },
+    "floorCode": "1",
+    "roomNumber": "Rooms 110 - 112 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Beside Audiometry Soundproof Testing Booth, opposite Pharmacy B",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಆಡಿಯೊಮೆಟ್ರಿ ಸೌಂಡ್‌ಪ್ರೂಫ್ ಬೂತ್ ಪಕ್ಕದಲ್ಲಿ, ಫಾರ್ಮಸಿ ಬಿ ಎದುರು",
+      "hi": "[नमूना लेआउट] ऑडियोमेट्री हियरिंग टेस्ट बूथ के बगल में, फार्मेसी बी के सामने"
+    },
+    "operatingHours": {
+      "en": "Mon - Sat: 9:00 AM - 5:00 PM",
+      "kn": "ಸೋಮ - ಶನಿ: ಬೆಳಿಗ್ಗೆ 9:00 - ಸಂಜೆ 5:00",
+      "hi": "सोम - शनि: सुबह 9:00 - शाम 5:00"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Raghuvaran Nair",
+        "role": "Senior ENT Surgeon, MS (ENT), DLO"
+      },
+      {
+        "name": "Dr. Pooja Mittal",
+        "role": "Rhinology & Voice Specialist"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "ear pain",
+        "hearing loss",
+        "ringing in ear",
+        "tinnitus",
+        "ear discharge",
+        "sinus",
+        "blocked nose",
+        "sore throat",
+        "tonsils",
+        "hoarse voice",
+        "vertigo",
+        "dizziness",
+        "snoring",
+        "foreign body in nose or ear"
+      ],
+      "kn": [
+        "ಕಿವಿ ನೋವು",
+        "ಕಿವಿ ಕೇಳಿಸದಿರುವುದು",
+        "ಕಿವಿ ಝೇಂಕಾರ",
+        "ಕಿವಿ ಸೋರುವಿಕೆ",
+        "ಸೈನಸ್",
+        "ಮೂಗು ಕಟ್ಟುವುದು",
+        "ಗಂಟಲು ನೋವು",
+        "ಟಾನ್ಸಿಲ್",
+        "ಧ್ವನಿ ಬದಲಾವಣೆ"
+      ],
+      "hi": [
+        "कान में दर्द",
+        "कम सुनाई देना",
+        "कान बजना",
+        "कान बहना",
+        "साइनस",
+        "नाक बंद होना",
+        "गले में खराश",
+        "टॉन्सिल",
+        "आवाज बैठना",
+        "चक्कर आना"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Walk into Block B (Sushruta Wing).",
+        "Take Lift B to the 1st Floor.",
+        "Turn left upon exiting the elevator.",
+        "ENT Consultation suite (Rooms 110-112) is next to the Audiology Booth."
+      ],
+      "kn": [
+        "ಬ್ಲಾಕ್ ಬಿ (ಸುಶ್ರುತ ವಿಭಾಗ) ಒಳಗೆ ಬನ್ನಿ.",
+        "ಲಿಫ್ಟ್ ಬಿ ಮೂಲಕ 1ನೇ ಮಹಡಿಗೆ ಹೋಗಿ.",
+        "ಲಿಫ್ಟ್‌ನಿಂದ ಎಡಕ್ಕೆ ತಿರುಗಿ.",
+        "ಇಎನ್‌ಟಿ ಕೊಠಡಿಗಳು (110-112) ಆಡಿಯಾಲಜಿ ಬೂತ್ ಪಕ್ಕದಲ್ಲಿದೆ."
+      ],
+      "hi": [
+        "ब्लॉक बी (सुश्रुत विंग) में आएं।",
+        "लिफ्ट बी से पहली मंजिल पर जाएं।",
+        "लिफ्ट से बाहर निकलकर बाईं ओर मुड़ें।",
+        "ईएनटी ओपीडी सुइट (कमरा 110-112) ऑडियोलॉजी बूथ के ठीक बगल में है।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "gastroenterology",
+    "icon": "🚽",
+    "badgeColor": "#8b5cf6",
+    "isEmergency": false,
+    "names": {
+      "en": "Gastroenterology & Liver Clinic",
+      "kn": "ಜಠರಗರುಳು ಮತ್ತು ಯಕೃತ್ತಿನ ಆರೋಗ್ಯ ವಿಭಾಗ",
+      "hi": "पेट एवं लिवर रोग विभाग (गैस्ट्रोएंटरोलॉजी)"
+    },
+    "description": {
+      "en": "Expert care for acidity, stomach ulcers, gastritis, liver disorders, jaundice, digestion issues, and colon health.",
+      "kn": "ಹೊಟ್ಟೆ ನೋವು, ಅಸಿಡಿಟಿ, ಗ್ಯಾಸ್ಟ್ರಿಕ್, ಯಕೃತ್ತು (ಲಿವರ್) ಕಾಯಿಲೆಗಳು, ಅತಿಸಾರ ಮತ್ತು ಜೀರ್ಣಕ್ರಿಯೆ ಸಮಸ್ಯೆಗಳ ನಿವಾರಣೆ.",
+      "hi": "पेट दर्द, गैस, एसिडिटी, पेट के छाले, लिवर की बीमारी, पीलिया, कब्ज और पाचन संबंधी सभी समस्याओं का इलाज।"
+    },
+    "building": {
+      "en": "Block A - Main Hospital Building (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಎ - ಮುಖ್ಯ ಆಸ್ಪತ್ರೆ ಕಟ್ಟಡ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक ए - मुख्य अस्पताल भवन (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "2nd Floor",
+      "kn": "2ನೇ ಮಹಡಿ",
+      "hi": "दूसरी मंजिल"
+    },
+    "floorCode": "2",
+    "roomNumber": "Rooms 204 - 206 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Opposite Endoscopy Suite, adjacent to Dietetics Counselling",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಎಂಡೋಸ್ಕೋಪಿ ಸೂಟ್ ಎದುರು, ಆಹಾರ ತಜ್ಞರ ಕೊಠಡಿ ಪಕ್ಕದಲ್ಲಿ",
+      "hi": "[नमूना लेआउट] एंडोस्कोपी सुइट के सामने, डायटिशियन रूम के पास"
+    },
+    "operatingHours": {
+      "en": "Mon - Sat: 9:00 AM - 5:00 PM",
+      "kn": "ಸೋಮ - ಶನಿ: ಬೆಳಿಗ್ಗೆ 9:00 - ಸಂಜೆ 5:00",
+      "hi": "सोम - शनि: सुबह 9:00 - शाम 5:00"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Bhaskar Prasad",
+        "role": "Senior Consultant Gastroenterologist, DM (Gastro)"
+      },
+      {
+        "name": "Dr. Preeti Shenoy",
+        "role": "Hepatologist & GI Endoscopist"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "stomach pain",
+        "acidity",
+        "heartburn",
+        "indigestion",
+        "bloating",
+        "gas",
+        "vomiting",
+        "diarrhea",
+        "loose motion",
+        "constipation",
+        "jaundice",
+        "liver problem",
+        "loss of appetite"
+      ],
+      "kn": [
+        "ಹೊಟ್ಟೆ ನೋವು",
+        "ಆಸಿಡಿಟಿ",
+        "ಎದೆಯುರಿ",
+        "ಜೀರ್ಣವಾಗದಿರುವುದು",
+        "ಹೊಟ್ಟೆ ಉಬ್ಬರ",
+        "ವಾಂತಿ",
+        "ಭೇದಿ",
+        "ಮಲಬದ್ಧತೆ",
+        "ಕಾಮಾಲೆ",
+        "ಲಿವರ್ ಸಮಸ್ಯೆ"
+      ],
+      "hi": [
+        "पेट दर्द",
+        "एसिडिटी",
+        "सीने में जलन",
+        "अपच",
+        "पेट में गैस",
+        "उल्टी",
+        "दस्त (लूज मोशन)",
+        "कब्ज",
+        "पीलिया",
+        "भूख न लगना",
+        "लिवर की समस्या"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Enter Block A main elevator lobby.",
+        "Take Lift A to the 2nd Floor.",
+        "Turn right and follow the PURPLE line along the corridor.",
+        "Gastroenterology OPD (Rooms 204-206) is straight ahead opposite the Endoscopy Suite."
+      ],
+      "kn": [
+        "ಬ್ಲಾಕ್ ಎ ಮುಖ್ಯ ಲಿಫ್ಟ್ ಲಾಬಿಗೆ ಬನ್ನಿ.",
+        "ಲಿಫ್ಟ್ ಎ ಬಳಸಿ 2ನೇ ಮಹಡಿಗೆ ಹೋಗಿ.",
+        "ಬಲಕ್ಕೆ ತಿರುಗಿ ನೇರಳೆ ಬಣ್ಣದ ಗೆರೆಯನ್ನು ಹಿಂಬಾಲಿಸಿ.",
+        "ಜಠರಗರುಳು ವಿಭಾಗ (ರೂಮ್ 204-206) ಎಂಡೋಸ್ಕೋಪಿ ಸೂಟ್ ಎದುರಿಗೆ ಕಾಣಿಸುತ್ತದೆ."
+      ],
+      "hi": [
+        "ब्लॉक ए मेन लिफ्ट लॉबी में जाएं।",
+        "लिफ्ट ए से दूसरी मंजिल पर पहुंचें।",
+        "दाईं ओर मुड़ें और बैंगनी लाइन का पीछा करें।",
+        "गैस्ट्रोएंटरोलॉजी ओपीडी (कमरा 204-206) एंडोस्कोपी सुइट के ठीक सामने है।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "neurology",
+    "icon": "🧠",
+    "badgeColor": "#7c3aed",
+    "isEmergency": false,
+    "names": {
+      "en": "Neurology & Mental Health",
+      "kn": "ನರರೋಗ ಮತ್ತು ಮಾನಸಿಕ ಕ್ಷೇಮ ವಿಭಾಗ",
+      "hi": "न्यूरोलॉजी एवं मानसिक स्वास्थ्य विभाग"
+    },
+    "description": {
+      "en": "Specialized diagnosis for migraine, stroke recovery, epilepsy, neuropathic pain, anxiety, and counseling.",
+      "kn": "ಮೈಗ್ರೇನ್ ತಲೆನೋವು, ಪಾರ್ಶ್ವವಾಯು, ನರಗಳ ದೌರ್ಬಲ್ಯ, ನಿದ್ರಾಹೀನತೆ ಮತ್ತು ಮಾನಸಿಕ ಒತ್ತಡ ನಿವಾರಣೆ.",
+      "hi": "माइग्रेन, मिर्गी (दौरे), लकवा (स्ट्रोक), नसों की कमजोरी, अवसाद, चिंता और मानसिक परामर्श का विशेष केंद्र।"
+    },
+    "building": {
+      "en": "Block C - Super-Speciality Wing (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಸಿ - ಸೂಪರ್ ಸ್ಪೆಷಾಲಿಟಿ ವಿಭಾಗ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक सी - सुपर स्पेशियलिटी विंग (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "3rd Floor",
+      "kn": "3ನೇ ಮಹಡಿ",
+      "hi": "तीसरी मंजिल"
+    },
+    "floorCode": "3",
+    "roomNumber": "Rooms 310 - 314 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Quiet Medical Zone, beside EEG / EMG Neurophysiology Lab",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಪ್ರಶಾಂತ ವಲಯ, ಇಇಜಿ / ಇಎಂಜಿ ನ್ಯೂರಾಲಜಿ ಲ್ಯಾಬ್ ಪಕ್ಕ",
+      "hi": "[नमूना लेआउट] शांत मेडिकल जोन, ईईजी/ईएमजी लैब के ठीक बगल में"
+    },
+    "operatingHours": {
+      "en": "Mon - Sat: 9:30 AM - 5:30 PM",
+      "kn": "ಸೋಮ - ಶನಿ: ಬೆಳಿಗ್ಗೆ 9:30 - ಸಂಜೆ 5:30",
+      "hi": "सोम - शनि: सुबह 9:30 - शाम 5:30"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Satish Chander",
+        "role": "Chief Neurologist, DM (Neurology)"
+      },
+      {
+        "name": "Dr. Pallavi Varma",
+        "role": "Consultant Neuro-Physician & Psychologist"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "severe headache",
+        "migraine",
+        "numbness",
+        "tingling in hands or feet",
+        "seizures",
+        "fits",
+        "memory loss",
+        "paralysis",
+        "nerve pain",
+        "anxiety",
+        "depression",
+        "insomnia",
+        "sleeplessness",
+        "tremors"
+      ],
+      "kn": [
+        "ತೀವ್ರ ತಲೆನೋವು",
+        "ಮೈಗ್ರೇನ್",
+        "ಕೈಕಾಲು ಮರಗಟ್ಟುವುದು",
+        "ಫಿಟ್ಸ್",
+        "ಪಾರ್ಶ್ವವಾಯು",
+        "ನರಗಳ ನೋವು",
+        "ಮಾನಸಿಕ ಆತಂಕ",
+        "ನಿದ್ರಾಹೀನತೆ",
+        "ಕಂಪನ"
+      ],
+      "hi": [
+        "तेज सिरदर्द",
+        "माइग्रेन",
+        "हाथ-पैर में सुन्नपन",
+        "झुनझुनी",
+        "मिर्गी के दौरे",
+        "लकवा",
+        "नसों का दर्द",
+        "अनिद्रा (नींद न आना)",
+        "चिंता",
+        "तनाव"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Enter Block C (Super-Speciality).",
+        "Take Lift C directly to the 3rd Floor.",
+        "Exit and walk along the serene corridor to the left.",
+        "Neurology & Mind Wellness clinic (Rooms 310-314) is on your right next to the EEG lab."
+      ],
+      "kn": [
+        "ಬ್ಲಾಕ್ ಸಿ (ಸೂಪರ್-ಸ್ಪೆಷಾಲಿಟಿ) ಪ್ರವೇಶಿಸಿ.",
+        "ಲಿಫ್ಟ್ ಸಿ ಬಳಸಿ ನೇರವಾಗಿ 3ನೇ ಮಹಡಿಗೆ ಹೋಗಿ.",
+        "ಹೊರಬಂದು ಎಡಭಾಗದ ಶಾಂತ ಕಾರಿಡಾರ್‌ನಲ್ಲಿ ನಡೆಯಿರಿ.",
+        "ನ್ಯೂರಾಲಜಿ ಕೊಠಡಿಗಳು (310-314) ಇಇಜಿ ಲ್ಯಾಬ್ ಪಕ್ಕದಲ್ಲಿ ಬಲಭಾಗದಲ್ಲಿವೆ."
+      ],
+      "hi": [
+        "ब्लॉक सी (सुपर-स्पेशियलिटी) में प्रवेश करें।",
+        "लिफ्ट सी से सीधे तीसरी मंजिल पर जाएं।",
+        "बाहर निकलकर बाईं ओर शांत गलियारे में आगे बढ़ें।",
+        "न्यूरोलॉजी क्लिनिक (कमरा 310-314) ईईजी लैब के पास दाईं ओर स्थित है।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "pulmonology",
+    "icon": "🫁",
+    "badgeColor": "#059669",
+    "isEmergency": false,
+    "names": {
+      "en": "Pulmonology & Chest Medicine",
+      "kn": "ಶ್ವಾಸಕೋಶ ಮತ್ತು ಉಸಿರಾಟದ ಚಿಕಿತ್ಸಾ ವಿಭಾಗ",
+      "hi": "श्वसन एवं फेफड़ा रोग विभाग (पल्मोनोलॉजी)"
+    },
+    "description": {
+      "en": "Care for asthma, chronic obstructive pulmonary disease (COPD), bronchitis, pneumonia, chronic cough, and allergy.",
+      "kn": "ಅಸ್ತಮಾ, ದಮ್ಮು, ಉಸಿರಾಟದ ತೊಂದರೆ, ನಿರಂತರ ಕೆಮ್ಮು, ಕಫ ಮತ್ತು ಶ್ವಾಸಕೋಶದ ಸೋಂಕುಗಳಿಗೆ ಸುಧಾರಿತ ಚಿಕಿತ್ಸೆ.",
+      "hi": "अस्थमा (दमा), सांस फूलना, पुरानी खांसी, ब्रोंकाइटिस, निमोनिया और एलर्जी का आधुनिक उपचार।"
+    },
+    "building": {
+      "en": "Block A - Main Hospital Building (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಎ - ಮುಖ್ಯ ಆಸ್ಪತ್ರೆ ಕಟ್ಟಡ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक ए - मुख्य अस्पताल भवन (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "3rd Floor",
+      "kn": "3ನೇ ಮಹಡಿ",
+      "hi": "तीसरी मंजिल"
+    },
+    "floorCode": "3",
+    "roomNumber": "Rooms 302 - 304 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Beside Pulmonary Function Test (PFT) Lab and Nebulization Station",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಪಿಎಫ್‌ಟಿ ಲ್ಯಾಬ್ ಮತ್ತು ನೆಬುಲೈಸೇಶನ್ ಕೊಠಡಿ ಪಕ್ಕದಲ್ಲಿ",
+      "hi": "[नमूना लेआउट] फेफड़े की जांच (PFT) लैब और नेबुलाइजर रूम के पास"
+    },
+    "operatingHours": {
+      "en": "Mon - Sat: 9:00 AM - 5:00 PM",
+      "kn": "ಸೋಮ - ಶನಿ: ಬೆಳಿಗ್ಗೆ 9:00 - ಸಂಜೆ 5:00",
+      "hi": "सोम - शनि: सुबह 9:00 - शाम 5:00"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Narendra Kulkarni",
+        "role": "Senior Pulmonologist, MD (Pulmonary Medicine)"
+      },
+      {
+        "name": "Dr. Shweta Singh",
+        "role": "Chest Physician & Allergy Specialist"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "breathing difficulty",
+        "asthma",
+        "wheezing",
+        "chronic cough",
+        "cough with phlegm",
+        "breathlessness",
+        "chest congestion",
+        "snoring with choking",
+        "post covid lung issues"
+      ],
+      "kn": [
+        "ಉಸಿರಾಟದ ತೊಂದರೆ",
+        "ಅಸ್ತಮಾ",
+        "ದಮ್ಮು",
+        "ನಿರಂತರ ಕೆಮ್ಮು",
+        "ಕಫ",
+        "ಎದೆ ಕಟ್ಟುವಿಕೆ",
+        "ಉಬ್ಬಸ"
+      ],
+      "hi": [
+        "सांस लेने में कठिनाई",
+        "अस्थमा",
+        "सांस फूलना",
+        "घरघराहट",
+        "पुरानी खांसी",
+        "बलगम",
+        "सीने में जकड़न",
+        "दमा"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Take Lift A in Block A to the 3rd Floor.",
+        "Step out and follow the GREEN line on the floor.",
+        "Turn right down the corridor.",
+        "Pulmonology & Respiratory OPD (Rooms 302-304) is on the right, right before the PFT Lab."
+      ],
+      "kn": [
+        "ಬ್ಲಾಕ್ ಎ ನಲ್ಲಿರುವ ಲಿಫ್ಟ್ ಎ ಮೂಲಕ 3ನೇ ಮಹಡಿಗೆ ಹೋಗಿ.",
+        "ಹೊರಬಂದು ನೆಲದ ಮೇಲಿರುವ ಹಸಿರು ಗೆರೆಯನ್ನು ಗಮನಿಸಿ.",
+        "ಬಲಕ್ಕೆ ತಿರುಗಿ ಕಾರಿಡಾರ್‌ನಲ್ಲಿ ನಡೆಯಿರಿ.",
+        "ಶ್ವಾಸಕೋಶ ಚಿಕಿತ್ಸಾ ಕೊಠಡಿ (302-304) ಪಿಎಫ್‌ಟಿ ಲ್ಯಾಬ್ ಪಕ್ಕದಲ್ಲಿ ಬಲಭಾಗದಲ್ಲಿದೆ."
+      ],
+      "hi": [
+        "ब्लॉक ए में लिफ्ट ए से तीसरी मंजिल पर जाएं।",
+        "बाहर निकलकर फर्श पर हरी लाइन देखें।",
+        "गलियारे में दाईं ओर मुड़ें।",
+        "पल्मोनोलॉजी ओपीडी (कमरा 302-304) पीएफटी लैब से ठीक पहले दाईं ओर है।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "urology",
+    "icon": "💧",
+    "badgeColor": "#0284c7",
+    "isEmergency": false,
+    "names": {
+      "en": "Nephrology & Urology (Kidney Care)",
+      "kn": "ಮೂತ್ರಪಿಂಡ ಮತ್ತು ಯುರಾಲಜಿ ವಿಭಾಗ",
+      "hi": "गुर्दा एवं मूत्र रोग विभाग (यूरोलॉजी एवं नेफ्रोलॉजी)"
+    },
+    "description": {
+      "en": "Advanced treatments for kidney stones, urinary tract infections (UTI), prostate conditions, and dialysis services.",
+      "kn": "ಮೂತ್ರಪಿಂಡದ ಕಲ್ಲು (ಕಿಡ್ನಿ ಸ್ಟೋನ್), ಮೂತ್ರ ಸೋಂಕು, ಪ್ರಾಸ್ಟೇಟ್ ಮತ್ತು ಡಯಾಲಿಸಿಸ್ ಸೇವೆಗಳಿಗೆ ಅತ್ಯಾಧುನಿಕ ಚಿಕಿತ್ಸೆ.",
+      "hi": "गुर्दे की पथरी (किडनी स्टोन), यूरिन इन्फेक्शन (यूटीआई), प्रोस्टेट समस्या और डायलिसिस का विशेषज्ञ इलाज।"
+    },
+    "building": {
+      "en": "Block C - Super-Speciality Wing (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಸಿ - ಸೂಪರ್ ಸ್ಪೆಷಾಲಿಟಿ ವಿಭಾಗ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक सी - सुपर स्पेशियलिटी विंग (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "2nd Floor",
+      "kn": "2ನೇ ಮಹಡಿ",
+      "hi": "दूसरी मंजिल"
+    },
+    "floorCode": "2",
+    "roomNumber": "Rooms 218 - 220 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Adjacent to Dialysis Unit, near Lift C",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಡಯಾಲಿಸಿಸ್ ಘಟಕದ ಪಕ್ಕದಲ್ಲಿ, ಲಿಫ್ಟ್ ಸಿ ಹತ್ತಿರ",
+      "hi": "[नमूना लेआउट] डायलिसिस यूनिट के पास, लिफ्ट सी के बगल में"
+    },
+    "operatingHours": {
+      "en": "Mon - Sat: 9:00 AM - 5:30 PM | Dialysis 24/7",
+      "kn": "ಸೋಮ - ಶನಿ: ಬೆಳಿಗ್ಗೆ 9:00 - ಸಂಜೆ 5:30 | ಡಯಾಲಿಸಿಸ್ 24/7",
+      "hi": "सोम - शनि: सुबह 9:00 - शाम 5:30 | डायलिसिस 24/7"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Kiran Deshmukh",
+        "role": "Senior Urologist & Transplant Surgeon, MCh (Uro)"
+      },
+      {
+        "name": "Dr. Sangeetha Bhat",
+        "role": "Consultant Nephrologist, DM (Nephrology)"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "kidney stone pain",
+        "burning urination",
+        "blood in urine",
+        "difficulty urinating",
+        "frequent urination",
+        "lower back kidney pain",
+        "urinary infection",
+        "prostate problem",
+        "swelling in legs"
+      ],
+      "kn": [
+        "ಕಿಡ್ನಿ ಸ್ಟೋನ್ ನೋವು",
+        "ಮೂತ್ರದಲ್ಲಿ ಉರಿ",
+        "ಮೂತ್ರದಲ್ಲಿ ರಕ್ತ",
+        "ಮೂತ್ರ ತಡೆತ",
+        "ಪದೇ ಪದೇ ಮೂತ್ರ ಬರುವುದು",
+        "ಸೊಂಟದ ನೋವು"
+      ],
+      "hi": [
+        "किडनी में पथरी का दर्द",
+        "पेशाब में जलन",
+        "पेशाब में खून",
+        "बार-बार पेशाब आना",
+        "पेशाब रुकना",
+        "कमर के निचले हिस्से में दर्द",
+        "यूटीआई"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Enter Block C (Super-Speciality).",
+        "Take Lift C to the 2nd Floor.",
+        "Turn right upon exiting.",
+        "Follow the CYAN floor markers past the Dialysis Unit.",
+        "Urology & Kidney OPD (Rooms 218-220) is situated on the right corridor."
+      ],
+      "kn": [
+        "ಬ್ಲಾಕ್ ಸಿ ಪ್ರವೇಶಿಸಿ.",
+        "ಲಿಫ್ಟ್ ಸಿ ಮೂಲಕ 2ನೇ ಮಹಡಿಗೆ ಬನ್ನಿ.",
+        "ಹೊರಬಂದು ಬಲಕ್ಕೆ ತಿರುಗಿ.",
+        "ಡಯಾಲಿಸಿಸ್ ಘಟಕವನ್ನು ದಾಟಿ ಸಯಾನ್ ಬಣ್ಣದ ಗುರುತನ್ನು ಹಿಂಬಾಲಿಸಿ.",
+        "ಯುರಾಲಜಿ ಕೊಠಡಿಗಳು (218-220) ಬಲಭಾಗದ ಕಾರಿಡಾರ್‌ನಲ್ಲಿದೆ."
+      ],
+      "hi": [
+        "ब्लॉक सी में प्रवेश करें।",
+        "लिफ्ट सी से दूसरी मंजिल पर आएं।",
+        "बाहर निकलकर दाईं ओर मुड़ें।",
+        "डायलिसिस यूनिट के आगे स्यान रंग के मार्कर का पालन करें।",
+        "यूरोलॉजी ओपीडी (कमरा 218-220) दाईं ओर के गलियारे में स्थित है।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  },
+  {
+    "id": "diagnostics_radiology",
+    "icon": "🔬",
+    "badgeColor": "#475569",
+    "isEmergency": false,
+    "names": {
+      "en": "Diagnostics, Radiology & Pathology Lab",
+      "kn": "ರಕ್ತ ಪರೀಕ್ಷೆ ಮತ್ತು ರೇಡಿಯಾಲಜಿ ಸ್ಕ್ಯಾನಿಂಗ್ ವಿಭಾಗ",
+      "hi": "डायग्नोस्टिक्स, पैथोलॉजी लैब एवं रेडियोलॉजी विभाग"
+    },
+    "description": {
+      "en": "NABL-accredited diagnostic center: Blood/Urine tests, digital X-Ray, 128-slice CT scan, 3T MRI, Ultrasound, and ECG.",
+      "kn": "ರಕ್ತ ಪರೀಕ್ಷೆ, ಮೂತ್ರ ಪರೀಕ್ಷೆ, ಡಿಜಿಟಲ್ ಎಕ್ಸರೇ, ಸಿಟಿ ಸ್ಕ್ಯಾನ್, ಎಂಆರ್‌ಐ ಮತ್ತು ಸಂಪೂರ್ಣ ರೋಗನಿದಾನ ತಪಾಸಣೆ.",
+      "hi": "रक्त जांच (ब्लड टेस्ट), डिजिटल एक्स-रे, सीटी स्कैन, एमआरआई, अल्ट्रासाउंड और संपूर्ण पैथोलॉजी सेवाएं।"
+    },
+    "building": {
+      "en": "Block A - Main Hospital Building (Sample Layout)",
+      "kn": "ಬ್ಲಾಕ್ ಎ - ಮುಖ್ಯ ಆಸ್ಪತ್ರೆ ಕಟ್ಟಡ (ಮಾದರಿ ವಿನ್ಯಾಸ)",
+      "hi": "ब्लॉक ए - मुख्य अस्पताल भवन (नमूना लेआउट)"
+    },
+    "floor": {
+      "en": "Ground Floor & Basement 1",
+      "kn": "ನೆಲ ಮಹಡಿ ಮತ್ತು ನೆಲಮಾಳಿಗೆ 1",
+      "hi": "भूतल एवं बेसमेंट 1"
+    },
+    "floorCode": "G",
+    "roomNumber": "Rooms 006 - 008 & B-01 (Sample Demo)",
+    "landmark": {
+      "en": "[Sample Layout] Behind Central Billing, direct ramp down to MRI/CT scan suite",
+      "kn": "[ಮಾದರಿ ವಿನ್ಯಾಸ] ಸೆಂಟ್ರಲ್ ಬಿಲ್ಲಿಂಗ್ ಹಿಂಭಾಗದಲ್ಲಿ, ಎಂಆರ್‌ಐ ಸ್ಕ್ಯಾನಿಂಗ್ ರ‍್ಯಾಂಪ್ ಪಕ್ಕ",
+      "hi": "[नमूना लेआउट] सेंट्रल बिलिंग के पीछे, एमआरआई/सीटी स्कैन सुइट के पास"
+    },
+    "operatingHours": {
+      "en": "24 Hours / 7 Days for Emergency Trauma & Routine: 7:00 AM - 9:00 PM",
+      "kn": "ತುರ್ತು ಸ್ಯಾಂಪಲ್‌ಗಳು ಮತ್ತು ಸ್ಕ್ಯಾನಿಂಗ್ 24/7 | ಸಾಮಾನ್ಯ: ಬೆಳಿಗ್ಗೆ 7:00 - ರಾತ್ರಿ 9:00",
+      "hi": "आपातकालीन जांच 24/7 | सामान्य जांच: सुबह 7:00 - रात 9:00"
+    },
+    "phone": "108 (Emergency) / Ext: Sample",
+    "doctors": [
+      {
+        "name": "Dr. Shalini Rai",
+        "role": "Chief Pathologist & Lab Director, MD (Pathology)"
+      },
+      {
+        "name": "Dr. Muralidhar Rao",
+        "role": "Chief Radiologist & Head of Imaging, MD (Radiology)"
+      }
+    ],
+    "symptoms": {
+      "en": [
+        "blood test",
+        "urine test",
+        "sugar test",
+        "fasting blood glucose",
+        "thyroid test",
+        "cbc",
+        "lipid profile",
+        "cholesterol",
+        "sample collection",
+        "x-ray",
+        "mri",
+        "ct scan",
+        "ultrasound",
+        "scan",
+        "sonography"
+      ],
+      "kn": [
+        "ರಕ್ತ ಪರೀಕ್ಷೆ",
+        "ಮೂತ್ರ ಪರೀಕ್ಷೆ",
+        "ಶುಗರ್ ಟೆಸ್ಟ್",
+        "ಥೈರಾಯ್ಡ್ ಪರೀಕ್ಷೆ",
+        "ಕೊಲೆಸ್ಟ್ರಾಲ್",
+        "ಸಿಬಿಸಿ ಪರೀಕ್ಷೆ",
+        "ಸ್ಯಾಂಪಲ್ ಸಂಗ್ರಹ",
+        "ಎಕ್ಸ್ ರೇ",
+        "ಎಂಆರ್‌ಐ",
+        "ಸಿಟಿ ಸ್ಕ್ಯಾನ್"
+      ],
+      "hi": [
+        "ब्लड टेस्ट",
+        "यूरिन टेस्ट",
+        "शुगर टेस्ट",
+        "थायराइड टेस्ट",
+        "सीबीसी (CBC)",
+        "कोलेस्ट्रॉल जांच",
+        "सैंपल कलेक्शन",
+        "एक्स-रे",
+        "एमआरआई (MRI)",
+        "सीटी स्कैन",
+        "अल्ट्रासाउंड",
+        "स्कैन"
+      ]
+    },
+    "directions": {
+      "en": [
+        "Enter Block A main lobby.",
+        "Walk past the Central Registration and Billing Counters on the Ground Floor.",
+        "For Blood / Urine tests: Token counter is at Room 006 directly behind Billing.",
+        "For X-Ray, CT scan, or MRI: Take Lift A down to Basement 1 (B1) or use the gentle ramp on the right."
+      ],
+      "kn": [
+        "ಬ್ಲಾಕ್ ಎ ಮುಖ್ಯ ಲಾಬಿಗೆ ಬನ್ನಿ.",
+        "ನೆಲ ಮಹಡಿಯಲ್ಲಿರುವ ನೋಂದಣಿ ಮತ್ತು ಬಿಲ್ಲಿಂಗ್ ಕೌಂಟರ್ ದಾಟಿ ಮುಂದೆ ಬನ್ನಿ.",
+        "ರಕ್ತ/ಮೂತ್ರ ಪರೀಕ್ಷೆಗೆ: ಬಿಲ್ಲಿಂಗ್ ಹಿಂಭಾಗದಲ್ಲಿರುವ ಕೊಠಡಿ 006 ರಲ್ಲಿ ಟೋಕನ್ ಪಡೆಯಿರಿ.",
+        "ಎಕ್ಸರೇ, ಸಿಟಿ ಅಥವಾ ಎಂಆರ್‌ಐ ಸ್ಕ್ಯಾನಿಂಗ್‌ಗೆ: ಲಿಫ್ಟ್ ಎ ಮೂಲಕ ಬೇಸ್‌ಮೆಂಟ್ 1 ಗೆ ಇಳಿಯಿರಿ ಅಥವಾ ರ‍್ಯಾಂಪ್ ಬಳಸಿ."
+      ],
+      "hi": [
+        "ब्लॉक ए मुख्य लॉबी में प्रवेश करें।",
+        "भूतल पर रजिस्ट्रेशन और बिलिंग काउंटर के पार जाएं।",
+        "ब्लड या यूरिन टेस्ट के लिए: बिलिंग के ठीक पीछे कमरा 006 पर टोकन लें।",
+        "एक्स-रे, सीटी या एमआरआई के लिए: लिफ्ट ए से बेसमेंट 1 (B1) में जाएं या दाईं ओर के रैंप का उपयोग करें।"
+      ]
+    },
+    "isSampleData": true,
+    "verificationStatus": "Unverified Demonstration Layout (DTSI Project)"
+  }
+]
